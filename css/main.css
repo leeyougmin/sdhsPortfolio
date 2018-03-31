@@ -1,0 +1,20 @@
+ *{margin:0;padding:0;box-sizing: border-box;}
+html,body{height:100%;}
+body{overflow: hidden;}
+#wrap{width: 100%;height:100%;}
+li{list-style:none;}
+a{text-decoration:none;}
+#gnb{position:absolute; right:0;}
+#gnb > li{width: 20px; height: 30px;}
+#gnb > li > .dot{width: 10px; height: 10px;border-radius: 10px; background: black; opacity: 0.5;}
+.scroll{width:100%; height:100%; text-align: center; color:#fff;background-image: url(../img/background.jpg); background-size: 100%; background-repeat: no-repeat;}#header {position: relative; color: #fff; text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);	text-align: center; margin: 0; padding: 14em 0 14em 0; cursor: default;}
+#header header {display: inline-block; padding: 0 0 4.5em 0;}
+#header header h1 {font-weight: 500; font-size: 8em; letter-spacing: 10px;}
+#header header p {border-top: solid 1px rgba(255, 255, 255, 0.5); color: rgba(255, 255, 255, 0.75); text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875); font-size: 2em; text-transform: uppercase; letter-spacing: 3px; padding: 0; margin-top: 0.35em;}
+#header header p:before {content: ''; display: block; border-top: solid 1px rgba(255, 255, 255, 0.5); margin: 4px 0 0.8em 0;}
+#header .target_box {position: absolute; top: 630px; width: 100%; }
+.target_btn{ width: 180px; height: 60px; background: #333; border: none; background: #ff8b8b; color: white; border-radius: 10px; margin: 0 auto; font-size: 18px;} 
+#content1{width: 70%; height: 100%; margin: 0 auto;}
+#cont_head{height: 250px;line-height: 250px;}
+#cont_head_font{font-weight: 300; font-size: 3em; letter-spacing: 10px;}
+#cont_box{height: 100%;}
